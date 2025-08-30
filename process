@@ -9,6 +9,8 @@ Set up Flask API to connect the model with your HTML UI.
 #command
 sudo yum update -y
 sudo yum install -y curl git
+pip3 install boto3 flask-cors
+
 curl -fsSL https://ollama.com/install.sh | sh         #Install Ollama
 ollama --version
 ollama pull llama3.2:1b
